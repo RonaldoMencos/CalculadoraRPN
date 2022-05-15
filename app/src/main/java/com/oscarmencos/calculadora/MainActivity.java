@@ -89,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
                     operacion = 0D;
                     break;
                 }
-                lista.push(operacion);
                 break;
             default:
                 System.out.println("Error");
