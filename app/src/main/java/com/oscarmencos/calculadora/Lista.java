@@ -37,7 +37,7 @@ public class Lista {
                     return data;
                 }
                 anterior.setEnlace(null);
-                return data;ba
+                return data;
             }
             anterior = n;
         }
