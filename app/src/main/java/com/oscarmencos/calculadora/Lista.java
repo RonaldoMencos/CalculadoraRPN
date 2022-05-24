@@ -37,18 +37,11 @@ public class Lista {
                     return data;
                 }
                 anterior.setEnlace(null);
-                return data;
+                return data;ba
             }
             anterior = n;
         }
         return data;
     }
 
-    public void ver() {
-        int i = 1;
-        for (Nodo n = primero; n != null; n = n.getEnlace()) {
-            System.out.println(n);
-            i++;
-        }
-    }
 }
